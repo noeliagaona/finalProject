@@ -3,7 +3,7 @@ import cv2 as cv
 from pathlib import Path
 
 
-def crearImagenes():
+def crearImagenes(): #creación de la conexión con la camara para poder tomar las imagenes y crear el dataset
     letra = input("Que letra quieres agergar? ")
     Path("abecedario"+letra).mkdir(parents=True, exist_ok=True)
     openCam = cv.VideoCapture(0)

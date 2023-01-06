@@ -1,6 +1,6 @@
 import os
 from utils.image_proces import process_img
-def create_csv(): # code taken from the internet
+def create_csv(): # creación del csv para poder utilizar las imagenes 
     
     mypath = 'abecedario'
     file_name = open('abecedario.csv', 'a')
@@ -43,23 +43,3 @@ def create_csv(): # code taken from the internet
 
 if __name__ == "__main__":
     create_csv()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
